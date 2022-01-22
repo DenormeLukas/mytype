@@ -27,5 +27,8 @@
     "prod": "rm -rf dist/ && webpack --mode production"
   },
   "author": "Frederik Duchi",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "gsap": "^3.9.1"
+  }
 }
