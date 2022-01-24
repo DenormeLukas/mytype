@@ -239,6 +239,41 @@ display: grid;
 
 }
 
+.alphabet {
+
+    display: flex;
+    flex-direction: column;
+    font-size: 35vw;
+    line-height: 0rem;
+    padding: 0rem;
+    background-color: white;
+    color: #2700FF;
+
+}
+
+.abc {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+
+}
+
+.hover {
+
+    
+
+}
+
+.hovered {
+
+       color: white;
+  -webkit-text-stroke-width: 0.5rem;
+  -webkit-text-stroke-color: #2700FF;
+
+}
 
 
 @media screen and (max-width:1024px) {

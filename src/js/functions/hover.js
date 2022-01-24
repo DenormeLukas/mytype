@@ -1,22 +1,20 @@
-let container = document.querySelector('.fullscreen');
+{
+    function hover() {
 
+        $(".hover").hover(
+            function () {
+                $(this).addClass("hovered");
+            }
+        )
 
-setInterval(function () {
+    }
 
-    this.classList.remove('fullscreen');
-    this.classList.add('fullscreen2');
+    const init = () => {
 
-}, 2000);
+        hover();
 
+    }
 
-setInterval(function () {
+    init();
 
-    this.classList.remove('fullscreen');
-    this.classList.add('fullscreen2');
-
-}, 4000);
-
-
-
-
-
+}
