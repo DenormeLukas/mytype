@@ -27,6 +27,7 @@ body {
   width: 3rem;
   border-radius: 3rem;
   background-color: #2700FF;
+  border: 0.3rem solid white;
   position: absolute;
 }
 
@@ -140,21 +141,23 @@ body {
 
 .fullscreen {
 
-    width: 100vw;
     height: 100vh;
     background-image: url('../assets/img/conservative.png');
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     margin-bottom: 10rem;
 
 }
 
 .fullscreen2 {
 
-    width: 100vw;
     height: 100vh;
     background-image: url('../assets/img/progressive.png');
-    background-size: cover;
-
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 10rem;
 }
 
 img {
@@ -165,10 +168,8 @@ img {
 
 .grid {
 display: grid;
-width: 100vw;
-height: 100vh;
 grid-template-columns: repeat(2, 1fr);
-grid-template-rows: repeat(2, 1fr);
+grid-auto-rows: repeat(2, 1fr);
 grid-column-gap: 0px;
 grid-row-gap: 0px;
 }
@@ -179,7 +180,76 @@ grid-row-gap: 0px;
     
     grid-area: 2 / 1 / 3 / 2;
     color: white;
-    font-size: 25px;
+    font-size: 3vw;
     text-align: right;
+    padding: 4rem;
+    padding-top: 0rem;
+
+}
+
+.F {
+    
+    background-color: white;
+    color: blue;
+    font-size: 50vw;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.modern-art {
+    
+    background-image: url('../assets/img/modernart1.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.stroke {
+
+    color: white;
+  -webkit-text-stroke-width: 0.5rem;
+  -webkit-text-stroke-color: #2700FF;
+
+}
+
+
+@media screen and (max-width:1024px) {
+
+    .banner {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../assets/img/PaulRenner3-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 10rem;
+    grid-column: 1/4;
+    color: white;
+}
+
+.modern-art {
+    
+    background-image: url('../assets/img/modernart1-tablet.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 
 }
