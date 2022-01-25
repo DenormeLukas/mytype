@@ -224,18 +224,50 @@ grid-row-gap: 0px;
 
 .grid2 {
 
-display: grid; 
-  grid-template-columns: 1fr 1fr; 
+  display: grid; 
+  grid-auto-columns: 2fr 1fr; 
   grid-auto-rows: 1fr; 
   gap: 0px 0px; 
   background-color: white;
 }
 
+.grid2-item1 {
+
+    color: #2700FF;;
+    grid-column: 1;
+
+}
+
 .grid2-item2 {
 
-    font-size: 3.5vw;
+    font-size: 2.5vw;
     color: #2700FF;;
-    padding: 3rem;
+    padding-left: 2rem;
+    grid-column: 2;
+
+}
+
+.grid3 {
+
+  display: grid; 
+  grid-auto-columns: 1fr 1.75fr; 
+  grid-auto-rows: 1fr; 
+  gap: 0px 0px; 
+  background-color: white;
+}
+
+.grid3-item1 {
+
+    font-size: 2.5vw;
+    color: #2700FF;
+    padding-left: 2rem;
+    grid-column: 1;
+
+}
+
+.grid3-item2 {
+
+    grid-column: 2;
 
 }
 
@@ -261,17 +293,25 @@ display: grid;
 
 }
 
-.hover {
-
-    
-
-}
-
 .hovered {
 
        color: white;
   -webkit-text-stroke-width: 0.5rem;
   -webkit-text-stroke-color: #2700FF;
+
+}
+
+.anatomy {
+
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    font-size: 2.5vw;
+    text-align: center;
+    color: #2700FF;
 
 }
 
@@ -302,6 +342,24 @@ display: grid;
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+
+.hovered {
+
+       color: white;
+  -webkit-text-stroke-width: 0.25rem;
+  -webkit-text-stroke-color: #2700FF;
+
+}
+
+.abc {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
 
 }
 
