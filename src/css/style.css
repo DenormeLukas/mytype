@@ -39,8 +39,8 @@ body {
     justify-content: center;
     align-items: center;
     background: url('../assets/img/PaulRenner3.png');
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: 100vw;
     font-size: 10rem;
     grid-column: 1/4;
     color: #2700FF;
@@ -314,6 +314,90 @@ grid-row-gap: 0px;
     color: #2700FF;
 
 }
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+.typing {
+width: 100vw;
+text-align: center;
+margin: auto;
+border-right: solid 3px white;
+white-space: nowrap;
+overflow: hidden;    
+font-size: 20vw;
+color: rgba(255,255,255);
+}
+
+.container-type {
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+/* Animation */
+.typing {
+  animation: animated-text 3.5s steps(8,end) 0.25s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+            animation-iteration-count: infinite;
+
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0vw;}
+  to{width: 85vw;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: white;}
+  to{border-right-color: rgb(255, 255, 255, 0.5);}
+}
+
+.grid-brands {
+   display: grid; 
+   grid-auto-rows: 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 0px;
+   
+}
+
+.brands-alt {
+
+    background-color: #2700FF;
+
+}
+
+.ending {
+
+    margin-top: 5rem;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.nextweek {
+
+    background-color: white;
+    margin-top: 5rem;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}
+
 
 
 @media screen and (max-width:1024px) {
