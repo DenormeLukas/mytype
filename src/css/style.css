@@ -367,9 +367,14 @@ color: rgba(255,255,255);
    
 }
 
-.brands-alt {
+.brands {
 
-    background-color: #2700FF;
+    color: white;
+    font-size: 2vw;
+    padding: 2rem;
+    height: 100%;
+    width: 100%;
+    text-align: justify;
 
 }
 
