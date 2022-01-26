@@ -140,25 +140,14 @@ body {
 
 }
 
-.fullscreen {
+#fullscreen {
 
     height: 100vh;
-    background-image: url('../assets/img/conservative.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     margin-bottom: 10rem;
 
-}
-
-.fullscreen2 {
-
-    height: 100vh;
-    background-image: url('../assets/img/progressive.png');
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-bottom: 10rem;
 }
 
 img {
