@@ -1,15 +1,5 @@
-<!DOCTYPE html>
-<html lang="nl">
+<section class="content">
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://use.typekit.net/fag5oji.css">
-  <title>Futura</title>
-</head>
-
-<body>
   <div id="cursor"></div>
 
   <div class="banner">
@@ -29,8 +19,7 @@
   <div class="grid">
 
     <div class="grid-item1"><img src="./assets/img/PaulRenner1.png" alt="Paul Renner drawing" max-width="100%"></div>
-    <div class="grid-item2"><img src="./assets/img/PaulRenner4.png" alt="Paul Renner portrait and smoking"
-        max-width="100%">
+    <div class="grid-item2"><img src="./assets/img/PaulRenner4.png" alt="Paul Renner portrait and smoking" max-width="100%">
     </div>
 
     <div class="light grid-item3">
@@ -235,6 +224,5 @@
   <script src="js/functions/hover.js"></script>
   <script src="js/functions/banner.js"></script>
   <script src="js/functions/changeBG.js"></script>
-</body>
 
-</html>
+</section>
