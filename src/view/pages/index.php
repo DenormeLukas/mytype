@@ -183,26 +183,31 @@
 
   <div class="grid-brands">
 
-    <img src="./assets/img/brand1.png" alt="Nike">
-    <img src="./assets/img/brand2.png" alt="In-N-Out">
-    <img src="./assets/img/brand3.png" alt="PayPal">
-    <img src="./assets/img/brand4.png" alt="Supreme">
-    <div class="brands">
-      <p>Futura is part of a group of fonts that <span class="medium">work well both as body copy and display.</span>
-      </p>
-      <p>
-        You’ve probably seen my Futura being <span class="medium">used in many different industries, </span>from film
-        posters to advertising and album
-        covers.
-      </p>
-      <p class="light-italic">It's quite popular.</p>
+    <?php foreach ($images as $image) : ?>
 
-    </div>
-    <img src="./assets/img/brand6.png" alt="Dominos">
-    <img src="./assets/img/brand7.png" alt="Gillette">
-    <img src="./assets/img/brand8.png" alt="FedEx">
-    <img src="./assets/img/brand9.png" alt="RedBull">
 
+
+      <img src="<?php echo $image['path']; ?>" alt="<?php echo $image['alt']; ?>">
+      <img src="<?php echo $image['path']; ?>" alt="<?php echo $image['alt']; ?>">
+      <img src="<?php echo $image['path']; ?>" alt="<?php echo $image['alt']; ?>">
+      <img src="<?php echo $image['path']; ?>" alt="<?php echo $image['alt']; ?>">
+      <div class="brands">
+        <p>Futura is part of a group of fonts that <span class="medium">work well both as body copy and display.</span>
+        </p>
+        <p>
+          You’ve probably seen my Futura being <span class="medium">used in many different industries, </span>from film
+          posters to advertising and album
+          covers.
+        </p>
+        <p class="light-italic">It's quite popular.</p>
+
+      </div>
+      <img src="<?php echo $image['path']; ?>" alt="<?php echo $image['alt']; ?>">
+      <img src="<?php echo $image['path']; ?>" alt="<?php echo $image['alt']; ?>">
+      <img src="<?php echo $image['path']; ?>" alt="<?php echo $image['alt']; ?>">
+      <img src="<?php echo $image['path']; ?>" alt="<?php echo $image['alt']; ?>">
+
+    <?php endforeach; ?>
   </div>
 
   <div>
