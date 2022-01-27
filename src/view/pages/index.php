@@ -215,15 +215,6 @@
     <img src="./assets/img/nextweek.png" alt="Futura will always stay relevant">
   </div>
 
-
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <script src="js/functions/cursor.js"></script>
-  <script src="js/functions/hover.js"></script>
-  <script src="js/functions/banner.js"></script>
-  <script src="js/functions/gsap.js"></script>
-  <script src="js/functions/changeBG.js"></script>
-
 
 </section>
-
