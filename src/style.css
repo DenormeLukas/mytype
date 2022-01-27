@@ -148,7 +148,6 @@ body {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    margin-bottom: 10rem;
 
 }
 
@@ -454,6 +453,15 @@ color: rgba(255,255,255);
 }
 
 @media screen and (max-width:390px) {
+
+    body {
+
+    font-family: futura-pt, sans-serif;
+    background-color: #2700FF;
+    width: 100vw;
+    height: 100vh;
+
+}
 
     .banner {
 
