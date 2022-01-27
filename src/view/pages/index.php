@@ -221,6 +221,7 @@
   <script src="js/functions/cursor.js"></script>
   <script src="js/functions/hover.js"></script>
   <script src="js/functions/banner.js"></script>
+  <script src="js/functions/gsap.js"></script>
   <script src="js/functions/changeBG.js"></script>
 
 </section>

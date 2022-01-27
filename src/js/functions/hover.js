@@ -1,7 +1,5 @@
 {
 
-    let i = 0;
-
     function hover() {
 
         $(".hover").hover(
