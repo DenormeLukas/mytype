@@ -183,31 +183,24 @@
 
   <div class="grid-brands">
 
-    <?php foreach ($images as $image) : ?>
+    <?php foreach ($images as $id => $image) : ?>
 
-
-
-      <img src="<?php echo $image['path']; ?>" alt="<?php echo $image['alt']; ?>">
-      <img src="<?php echo $image['path']; ?>" alt="<?php echo $image['alt']; ?>">
-      <img src="<?php echo $image['path']; ?>" alt="<?php echo $image['alt']; ?>">
-      <img src="<?php echo $image['path']; ?>" alt="<?php echo $image['alt']; ?>">
-      <div class="brands">
-        <p>Futura is part of a group of fonts that <span class="medium">work well both as body copy and display.</span>
-        </p>
-        <p>
-          You’ve probably seen my Futura being <span class="medium">used in many different industries, </span>from film
-          posters to advertising and album
-          covers.
-        </p>
-        <p class="light-italic">It's quite popular.</p>
-
-      </div>
-      <img src="<?php echo $image['path']; ?>" alt="<?php echo $image['alt']; ?>">
-      <img src="<?php echo $image['path']; ?>" alt="<?php echo $image['alt']; ?>">
-      <img src="<?php echo $image['path']; ?>" alt="<?php echo $image['alt']; ?>">
       <img src="<?php echo $image['path']; ?>" alt="<?php echo $image['alt']; ?>">
 
     <?php endforeach; ?>
+
+    <div class="brands">
+      <p>Futura is part of a group of fonts that <span class="medium">work well both as body copy and display.</span>
+      </p>
+      <p>
+        You’ve probably seen my Futura being <span class="medium">used in many different industries, </span>from film
+        posters to advertising and album
+        covers.
+      </p>
+      <p class="light-italic">It's quite popular.</p>
+
+    </div>
+
   </div>
 
   <div>

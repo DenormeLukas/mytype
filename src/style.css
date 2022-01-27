@@ -31,6 +31,7 @@ body {
   background-color: #2700FF;
   border: 0.3rem solid white;
   position: absolute;
+  z-index: 1000;
 }
 
 .banner {
@@ -362,17 +363,32 @@ color: rgba(255,255,255);
    grid-auto-rows: 1fr 1fr 1fr;
    grid-template-columns: 1fr 1fr 1fr;
    gap: 0px;
+   position: relative;
    
 }
 
 .brands {
 
+    display: block;
     color: white;
+    background-color: #2700FF;
     font-size: 2vw;
     padding: 2rem;
     height: 100%;
     width: 100%;
     text-align: justify;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    position: absolute;
+    z-index: 100;
+    opacity: 0;
+
+}
+
+.brands:hover {
+
+    transition: 0.3s ease;
+    opacity: 100;
 
 }
 
@@ -599,6 +615,7 @@ color: rgba(255,255,255);
 
 .brands {
 
+    
     color: white;
     font-size: 2vw;
     padding: 1rem;
