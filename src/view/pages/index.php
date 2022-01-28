@@ -1,5 +1,7 @@
 <section class="content">
 
+  <h1 class="hidden">Futura showcase</h1>
+
   <div id="cursor"></div>
 
   <div class="banner">
@@ -17,6 +19,8 @@
   <div id="fullscreen"></div>
 
   <div class="grid">
+
+    <h2 class="hidden">About Paul Renner</h2>
 
     <div class="grid-item1"><img src="./assets/img/PaulRenner1.png" alt="Paul Renner drawing" max-width="100%"></div>
     <div class="grid-item2"><img src="./assets/img/PaulRenner4.png" alt="Paul Renner portrait and smoking" max-width="100%">
@@ -42,6 +46,8 @@
   <div id="modern-art"></div>
 
   <div class="grid2">
+
+    <h2 class="hidden">Upbringing Paul Renner</h2>
 
     <div class="grid2-item1"><img src="./assets/img/PaulRenner5.png" alt="Paul Renner posing"></div>
     <div class="grid2-item2 light">
@@ -70,6 +76,8 @@
   </div>
 
   <div class="alphabet">
+
+    <h2 class="hidden">Alphabet</h2>
 
     <div class="abc">
       <p class="hover">a</p>
@@ -115,6 +123,8 @@
 
   <div class="grid3">
 
+    <h2 class="hidden">About Futura</h2>
+
     <div class="grid3-item1 light">
       <p class="light-italic">
         As said, I designed that, not bad right?
@@ -158,6 +168,7 @@
   </div>
 
   <div class="light anatomy">
+    <h2 class="hidden">Futura Anatomy</h2>
     <img src="./assets/img/Anatomy.png" alt="Futura Anatomy">
     <p>
       I used <span class="medium">basic geometric forms</span> and <span class="medium">even-width strokes</span> that
@@ -182,6 +193,8 @@
   </div>
 
   <div class="grid-brands">
+
+    <h2 class="hidden">Brands using Futura</h2>
 
     <?php foreach ($images as $id => $image) : ?>
 
@@ -212,6 +225,7 @@
   </div>
 
   <div class="nextweek">
+    <h2 class="hidden">Next week</h2>
     <img src="./assets/img/nextweek.png" alt="Futura will always stay relevant">
   </div>
 

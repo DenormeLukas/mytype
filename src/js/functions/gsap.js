@@ -1,10 +1,10 @@
 import { gsap } from "gsap/dist/gsap";
 
-const init = () => {
+export function warp() {
 
-    gsap.to(".banner", { duration: 2, x: 500 });
+    gsap.from(".banner", { duration: 2, x: 500 });
 
 }
 
-init();
+
 
