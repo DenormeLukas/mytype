@@ -646,21 +646,25 @@ margin-bottom: 0;
 
 .grid-brands {
    display: grid; 
-   grid-auto-rows: 1fr 1fr 1fr;
-   grid-auto-columns: 1fr 1fr 1fr;
+   grid-auto-rows: 1fr 1fr 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr;
 
 }
 
 .brands {
 
-    
+    display: block;
+    z-index: 100;
     color: white;
-    font-size: 2vw;
+    font-size: 3vw;
     padding: 1rem;
     padding-top: 0rem;
     height: 100%;
     width: 90%;
     text-align: justify;
+    grid-row: 5;
+    grid-column: 2;
+    opacity: 1;
 
 }
 
