@@ -24,8 +24,10 @@
   },
   "scripts": {
     "dev": "webpack-dev-server --mode development",
-    "prod": "rm -rf dist/ && webpack --mode production",
-    "build": "rm -rf dist/ && webpack --mode build"
+    "prod": "npm run clean && npm run copydist && webpack --mode production",
+    "copydist": "rsync -a --exclude=*.css --exclude=*.js ./src/ ./dist",
+    "clean": "rm -rf ./dist",
+    "heroku-postbuild": "npm run prod"
   },
   "author": "Frederik Duchi",
   "license": "ISC",
