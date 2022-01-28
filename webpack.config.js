@@ -12,7 +12,7 @@ module.exports = (env, { mode }) => {
     },
     devServer: {
       hot: true,
-      port: 3000,
+      port: process.env.PORT || 3000,
       headers: {
         'Access-Control-Allow-Origin': '*'
       }
