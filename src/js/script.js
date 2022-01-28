@@ -1,3 +1,16 @@
+import { switchImages } from "./functions/changeBG";
+import { cursor } from "./functions/cursor";
+import { hover, deleteClass } from "./functions/hover";
+
 export const init = () => {
-    console.log('start executing JavaSript');
+
+    switchImages();
+    cursor();
+    hover();
+    deleteClass();
+    console.log('werkt');
+
 };
+
+
+
