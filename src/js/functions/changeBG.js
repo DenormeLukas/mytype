@@ -21,7 +21,7 @@ export function switchImages() {
                 }
 
             });
-        }, 4000);
+        }, 2000);
     });
 
     let images2 = ["modernart1.jpg", "modernart2.jpg"];
@@ -45,7 +45,7 @@ export function switchImages() {
                 }
 
             });
-        }, 4000);
+        }, 2000);
     });
 
 
