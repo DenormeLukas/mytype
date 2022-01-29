@@ -41,7 +41,13 @@
 
   </div>
 
-  <div class="F bold">F<span class="stroke">F</span>F</div>
+  <div class="F bold">
+    F
+    <span class="stroke">F</span>
+    F
+    <img src="./assets/img/fff.png" alt="Form follows function" class="form-follows-function">
+  </div>
+
 
   <div id="modern-art"></div>
 
