@@ -43,7 +43,7 @@ export function fff() {
         scrollTrigger: {
             trigger: ".form-follows-function",
             start: "center center",
-            end: "top top",
+            end: "bottom top",
             toggleActions: "play reverse none reverse",
             toggleClass: 'is-active2'
         }

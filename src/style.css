@@ -1,11 +1,12 @@
 @import url("https://use.typekit.net/fag5oji.css");
 
+
 html {
   box-sizing: border-box;
   font-size: 62.5%;
   cursor: none;
-  margin: -1rem;
   overflow-x: hidden;
+  margin: -1rem;
 }
 
 *,
@@ -26,6 +27,7 @@ body {
     background-color: #2700FF;
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
 
 }
 
@@ -206,12 +208,15 @@ grid-row-gap: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: -100;
 
 }
 
 .form-follows-function {
 
     position: absolute;
+    z-index: 100;
     opacity: 0;
 
 }
@@ -529,6 +534,7 @@ margin-bottom: 0;
     background-color: #2700FF;
     width: 100vw;
     height: 100vh;
+     overflow-x: hidden;
 
 }
 

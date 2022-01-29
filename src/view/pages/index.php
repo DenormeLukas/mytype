@@ -28,7 +28,7 @@
 
     <div class="light grid-item3">
 
-      <p>I’m a <span class="medium">German teacher typographer and graphic designer.</span>, I
+      <p>I’m a <span class="medium">German teacher typographer and graphic designer.</span> I
         have taught on multiple
         schools,
         wrote many books and designed
