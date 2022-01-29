@@ -6,7 +6,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 
-export function warp() {
+export function letters() {
 
     let element = document.querySelector('.banner');
 
@@ -26,15 +26,26 @@ export function warp() {
 
 export function brands() {
 
-    gsap.to(".F", {
+    gsap.to(".brands", {
         scrollTrigger: {
-            trigger: ".F",
-            start: "top top",
-            x: +500
+            trigger: ".brands",
+            start: "top center",
+            end: "top top",
+            toggleActions: "play reverse none reverse",
+            toggleClass: 'is-active'
         }
-    });
-
-    
-
+    })
 };
 
+export function fff() {
+
+    gsap.to(".form-follows-function", {
+        scrollTrigger: {
+            trigger: ".form-follows-function",
+            start: "center center",
+            end: "top top",
+            toggleActions: "play reverse none reverse",
+            toggleClass: 'is-active2'
+        }
+    })
+};

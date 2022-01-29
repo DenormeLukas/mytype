@@ -1,4 +1,4 @@
-
+@import url("https://use.typekit.net/fag5oji.css");
 
 html {
   box-sizing: border-box;
@@ -209,6 +209,20 @@ grid-row-gap: 0px;
 
 }
 
+.form-follows-function {
+
+    position: absolute;
+    opacity: 0;
+
+}
+
+.is-active2 {
+
+    opacity: 1;
+    transition: 0.2s ease;
+    
+}
+
 #modern-art {
     
     background-image: url('./assets/img/modernart1.jpg');
@@ -393,10 +407,10 @@ color: rgba(255,255,255);
 
 }
 
-.brands:hover {
+.is-active {
 
-    transition: 0.3s ease;
-    opacity: 100;
+    opacity: 1;
+    transition: 0.3s;
 
 }
 
