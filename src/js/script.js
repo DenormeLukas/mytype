@@ -18,7 +18,6 @@ export const init = () => {
     alphabet2();
     alphabet3();
     alphabet4();
-
 };
 
 
