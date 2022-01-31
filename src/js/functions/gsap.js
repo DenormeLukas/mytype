@@ -49,3 +49,84 @@ export function fff() {
         }
     })
 };
+
+export function ending() {
+
+    gsap.timeline({
+        scrollTrigger: {
+            trigger: ".ending",
+            start: "top bottom",
+            end: "center center",
+            scrub: true
+        }
+    }).from(".ending", { xPercent: -200 }, 0)
+};
+
+
+export function nextWeek() {
+
+    gsap.timeline({
+        scrollTrigger: {
+            trigger: ".nextweek",
+            start: "top bottom",
+            end: "center center",
+            scrub: true
+        }
+    }).from(".nextweek-img", { xPercent: 200 }, 0)
+};
+
+export function alphabet1() {
+
+    gsap.timeline({
+        scrollTrigger: {
+            trigger: ".first",
+            start: "top bottom",
+            end: "top center",
+            scrub: true
+        }
+    }).from(".first", { xPercent: 200 }, 0)
+};
+
+export function alphabet2() {
+
+    gsap.timeline({
+        scrollTrigger: {
+            trigger: ".second",
+            start: "top center",
+            end: "top top",
+            scrub: true
+        }
+    }).from(".second", { xPercent: -200 }, 0)
+};
+
+
+export function alphabet3() {
+
+    gsap.timeline({
+        scrollTrigger: {
+            trigger: ".third",
+            start: "top center",
+            end: "top top",
+            scrub: true
+        }
+    }).from(".third", { xPercent: 200 }, 0)
+};
+
+
+
+export function alphabet4() {
+
+    gsap.timeline({
+        scrollTrigger: {
+            trigger: ".fourth",
+            start: "top center",
+            end: "top top",
+            scrub: true
+        }
+    }).from(".fourth", { xPercent: -200 }, 0)
+};
+
+
+
+
+
