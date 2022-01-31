@@ -85,7 +85,7 @@
 
     <h2 class="hidden">Alphabet</h2>
 
-    <div class="abc">
+    <div class="abc first">
       <p class="hover">a</p>
       <p class="hover">b</p>
       <p class="hover">c</p>
@@ -94,7 +94,7 @@
       <p class="hover">f</p>
     </div>
 
-    <div class="abc">
+    <div class="abc second">
       <p class="hover">g</p>
       <p class="hover">h</p>
       <p class="hover">i</p>
@@ -104,7 +104,7 @@
       <p class="hover">m</p>
     </div>
 
-    <div class="abc">
+    <div class="abc third">
       <p class="hover">n</p>
       <p class="hover">o</p>
       <p class="hover">p</p>
@@ -113,7 +113,7 @@
       <p class="hover">s</p>
     </div>
 
-    <div class="abc">
+    <div class="abc fourth">
       <p class="hover">t</p>
       <p class="hover">u</p>
       <p class="hover">v</p>
@@ -232,7 +232,7 @@
 
   <div class="nextweek">
     <h2 class="hidden">Next week</h2>
-    <img src="./assets/img/nextweek.png" alt="Futura will always stay relevant">
+    <img src="./assets/img/nextweek.png" alt="Futura will always stay relevant" class="nextweek-img">
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
